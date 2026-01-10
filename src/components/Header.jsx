@@ -4,10 +4,19 @@ import { Link } from 'react-router-dom' // Import etməyi unutma!
 
 function Header() {
   return (
-    <header className='flex justify-between items-center py-4 border-b-2 border-emerald-500/50 bg-[#0B1720]'>
+    <header className='flex justify-between gap-6 items-center py-4 border-b-2 border-emerald-500/50 bg-[#0B1720]'>
       <div className='ml-5 mt-2'>
         <Link to="/">
-          <img src={logo} alt="Logo" className='logo-style rounded-full w-12 h-12 object-cover' />
+          <img 
+            src={logo} 
+            alt="Logo" 
+            loading="eager"
+            decoding="async"
+            fetchPriority="high"
+            width="48"
+            height="48"
+            className='logo-style rounded-full w-12 h-12 object-cover' 
+          />
         </Link>
       </div>
 

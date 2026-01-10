@@ -9,6 +9,8 @@ function ProductCard({ name, price, img }) {
       <img 
         src={img || 'https://placehold.co/600x400?text=Food'} 
         alt={name}
+        loading="lazy"
+        decoding="async"
         style={{ objectPosition: '50% 90%' }}
         className="w-full h-full object-cover  transition-transform duration-500 group-hover:scale-110"
       />

@@ -8,4 +8,16 @@ export default defineConfig({
     react(),
     tailwindcss()
   ],
+  build: {
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          vendor: ['react', 'react-dom', 'react-router-dom']
+        }
+      }
+    },
+    assetsInlineLimit: 4096, // 4kb-dan kiçik faylları inline edir
+    chunkSizeWarningLimit: 1000
+  },
+  assetsInclude: ['**/*.png', '**/*.jpg', '**/*.jpeg', '**/*.svg', '**/*.avif']
 })

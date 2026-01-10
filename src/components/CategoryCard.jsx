@@ -12,6 +12,8 @@ function CategoryCard({ title, path, img }) {
       <img 
         src={img || 'https://via.placeholder.com/400x300?text=Menu'} 
         alt={title}
+        loading="lazy"
+        decoding="async"
         style={{ objectPosition: '50% 80%' }}
         className="w-full h-full  object-cover transition-transform duration-500 group-hover:scale-110"
       />
