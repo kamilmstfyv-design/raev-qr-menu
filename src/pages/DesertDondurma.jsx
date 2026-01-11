@@ -1,22 +1,24 @@
 import React from 'react'
-import desertdondurma from "../assets/desertdondurma.png";
+import kruasanbg from "../assets/producimgs/kruasan.png";
+import dondurmabg from "../assets/dondurmabg.png";
+import desertbg from "../assets/desertbg.png";
 import CategoryCard from '../components/CategoryCard';
 function DesertDondurma() {
   const DESSERT_SUBS = [
   { 
     title: "Desertlər", 
     path: "/desert-dondurma/desert", 
-    img: desertdondurma 
+    img: desertbg 
   },
   { 
     title: "Dondurmalar", 
     path: "/desert-dondurma/dondurma", 
-    img: desertdondurma 
+    img: dondurmabg 
   },
   { 
     title: "Kruasanlar", 
     path: "/desert-dondurma/kruasan", 
-    img: desertdondurma 
+    img: kruasanbg 
   }
 ];
   return (

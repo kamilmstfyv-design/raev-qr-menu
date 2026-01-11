@@ -33,10 +33,10 @@ function LunchMenu() {
           </h3>
           
           <div className="space-y-2 md:space-y-4 w-full max-w-xs">
-            <p className="text-xl md:text-2xl font-semibold border-b border-white/20 pb-2">Günün şorbası</p>
-            <p className="text-xl md:text-2xl font-semibold border-b border-white/20 pb-2">Günün ana yeməyi</p>
-            <p className="text-xl md:text-2xl font-semibold border-b border-white/20 pb-2">Günün salatı</p>
-            <p className="text-xl md:text-2xl font-semibold">İçki</p>
+            <p className="text-xl md:text-2xl font-semibold border-b border-white/20 pb-1">Günün şorbası</p>
+            <p className="text-xl md:text-2xl font-semibold border-b border-white/20 pb-1">Günün ana yeməyi</p>
+            <p className="text-xl md:text-2xl font-semibold border-b border-white/20 pb-1">Günün salatı</p>
+            <p className="text-xl md:text-2xl font-semibold pb-1">İçki</p>
           </div>
         </div>
       </div>

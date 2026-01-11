@@ -1,11 +1,13 @@
 import React from 'react'
 import CategoryCard from '../components/CategoryCard'
 import caycofeImg from "../assets/caycofe.png";
+import caylarbg from "../assets/caylarbg.jpg";
+import cofelerbg from "../assets/cofelerbg.jpg";
 
 function CayCofee() {
   const BEVERAGE_SUBS = [
-  { title: "Kofelər", path: "/cay-kofe/coffee",img: caycofeImg},
-  { title: "Çaylar", path: "/cay-kofe/cay",img: caycofeImg},
+  { title: "Kofelər", path: "/cay-kofe/coffee",img: cofelerbg},
+  { title: "Çaylar", path: "/cay-kofe/cay",img: caylarbg},
   { title: "Kombo Menular", path: "/cay-kofe/kombo",img: caycofeImg }
 ];
   return (

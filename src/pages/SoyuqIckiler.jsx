@@ -1,5 +1,7 @@
 import React from 'react'
 import soyuqicki from "../assets/soyuqicki.png";
+import freshickilerbg from "../assets/freshlerbg.png";
+import milkshakebg from "../assets/milkshakebg.png";
 import CategoryCard from '../components/CategoryCard';
 
 function SoyuqIckiler() {
@@ -7,7 +9,7 @@ function SoyuqIckiler() {
   { 
     title: "Fresh İçkilər", 
     path: "/soyuq-ickiler/fresh", 
-    img: soyuqicki // Bu şəkli yuxarıda import etməyi unutma
+    img: freshickilerbg // Bu şəkli yuxarıda import etməyi unutma
   },
   { 
     title: "Limonadlar", 
@@ -17,7 +19,7 @@ function SoyuqIckiler() {
   { 
     title: "Milkshakelər", 
     path: "/soyuq-ickiler/milkshakeler", 
-    img: soyuqicki 
+    img: milkshakebg 
   }
 ];
   return (
